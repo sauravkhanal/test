@@ -1,11 +1,11 @@
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>
-#define e.001
+#define e 0.001
 #define f(x) x*x*x-4*x-9
 void main()
 {
-
+    printf("\n This program calculates the root of equation x*x*x-4*x-9=0 ");
     float x1,x2,x0,a,b,c,E;
     int n=0;
     do{
