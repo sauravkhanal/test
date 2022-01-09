@@ -29,6 +29,6 @@ void main()
         E=fabs(x2-x1);
     }while(E>e);
 
-    printf("\n the root is %f",x0);
-
+    printf("\n The root is %f",x0);
+    printf("\n The number of iteration is %d",n);
 }
